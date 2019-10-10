@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e63e0e3-c572-49a6-9675-ec01abd80b61" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/endgame/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/endgame/server/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/menu/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/menu/menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mult/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mult/mult.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mult/mult.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/golden_forest_tree_2d_game_background_dribbble.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/endgame/endgame.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/endgame/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,8 +75,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570704237878</updated>
-      <workItem from="1570704240057" duration="403000" />
+      <workItem from="1570704240057" duration="1144000" />
     </task>
+    <task id="LOCAL-00001" summary="new structure">
+      <created>1570704777916</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1570704777916</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,5 +100,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="new structure" />
   </component>
 </project>
