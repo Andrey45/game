@@ -2,7 +2,172 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e63e0e3-c572-49a6-9675-ec01abd80b61" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Merriweather/Merriweather-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Merriweather/Merriweather-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Merriweather/Merriweather-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Merriweather/Merriweather-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Merriweather/Merriweather-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Merriweather/Merriweather-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Merriweather/Merriweather-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Merriweather/Merriweather-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Merriweather/OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Merriweather/__Merriweather-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Merriweather/__Merriweather-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Merriweather/__Merriweather-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Merriweather/__Merriweather-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Merriweather/__Merriweather-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Merriweather/__Merriweather-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Merriweather/__Merriweather-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Merriweather/__Merriweather-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Merriweather/__OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Montserrat/Montserrat-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Montserrat/Montserrat-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Montserrat/Montserrat-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Montserrat/Montserrat-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Montserrat/Montserrat-ExtraBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Montserrat/Montserrat-ExtraBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Montserrat/Montserrat-ExtraLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Montserrat/Montserrat-ExtraLightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Montserrat/Montserrat-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Montserrat/Montserrat-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Montserrat/Montserrat-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Montserrat/Montserrat-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Montserrat/Montserrat-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Montserrat/Montserrat-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Montserrat/Montserrat-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Montserrat/Montserrat-SemiBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Montserrat/Montserrat-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Montserrat/Montserrat-ThinItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Montserrat/OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Montserrat/__Montserrat-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Montserrat/__Montserrat-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Montserrat/__Montserrat-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Montserrat/__Montserrat-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Montserrat/__Montserrat-ExtraBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Montserrat/__Montserrat-ExtraBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Montserrat/__Montserrat-ExtraLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Montserrat/__Montserrat-ExtraLightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Montserrat/__Montserrat-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Montserrat/__Montserrat-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Montserrat/__Montserrat-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Montserrat/__Montserrat-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Montserrat/__Montserrat-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Montserrat/__Montserrat-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Montserrat/__Montserrat-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Montserrat/__Montserrat-SemiBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Montserrat/__Montserrat-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Montserrat/__Montserrat-ThinItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Montserrat/__OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Open_Sans/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Open_Sans/OpenSans-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Open_Sans/OpenSans-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Open_Sans/OpenSans-ExtraBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Open_Sans/OpenSans-ExtraBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Open_Sans/OpenSans-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Open_Sans/OpenSans-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Open_Sans/OpenSans-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Open_Sans/OpenSans-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Open_Sans/OpenSans-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Open_Sans/__LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Open_Sans/__OpenSans-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Open_Sans/__OpenSans-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Open_Sans/__OpenSans-ExtraBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Open_Sans/__OpenSans-ExtraBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Open_Sans/__OpenSans-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Open_Sans/__OpenSans-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Open_Sans/__OpenSans-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Open_Sans/__OpenSans-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Open_Sans/__OpenSans-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Open_Sans/__OpenSans-SemiBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Oswald/OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Oswald/Oswald-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Oswald/Oswald-ExtraLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Oswald/Oswald-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Oswald/Oswald-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Oswald/Oswald-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Oswald/Oswald-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Oswald/__OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Oswald/__Oswald-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Oswald/__Oswald-ExtraLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Oswald/__Oswald-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Oswald/__Oswald-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Oswald/__Oswald-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Oswald/__Oswald-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/PT_Sans/OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/PT_Sans/PT_Sans-Web-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/PT_Sans/PT_Sans-Web-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/PT_Sans/PT_Sans-Web-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/PT_Sans/PT_Sans-Web-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/PT_Sans/__OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/PT_Sans/__PT_Sans-Web-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/PT_Sans/__PT_Sans-Web-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/PT_Sans/__PT_Sans-Web-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/PT_Sans/__PT_Sans-Web-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Roboto/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Roboto/Roboto-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Roboto/Roboto-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Roboto/Roboto-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Roboto/Roboto-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Roboto/Roboto-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Roboto/Roboto-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Roboto/Roboto-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Roboto/Roboto-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Roboto/Roboto-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Roboto/Roboto-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Roboto/Roboto-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Roboto/Roboto-ThinItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Roboto/__LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Roboto/__Roboto-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Roboto/__Roboto-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Roboto/__Roboto-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Roboto/__Roboto-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Roboto/__Roboto-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Roboto/__Roboto-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Roboto/__Roboto-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Roboto/__Roboto-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Roboto/__Roboto-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Roboto/__Roboto-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Roboto/__Roboto-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Roboto/__Roboto-ThinItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Roboto_Condensed/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Roboto_Condensed/RobotoCondensed-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Roboto_Condensed/RobotoCondensed-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Roboto_Condensed/RobotoCondensed-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Roboto_Condensed/RobotoCondensed-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Roboto_Condensed/RobotoCondensed-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Roboto_Condensed/__LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Roboto_Condensed/__RobotoCondensed-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Roboto_Condensed/__RobotoCondensed-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Roboto_Condensed/__RobotoCondensed-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Roboto_Condensed/__RobotoCondensed-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Roboto_Condensed/__RobotoCondensed-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/Roboto_Condensed/__RobotoCondensed-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/0c59c82dfa5b00271c6b1e7f3b27be6e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/13895_0-450x450.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/194900.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/373-3730758_warthog-clipart-lion-king-lion-king-simba-timon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/56745fe7c68a8151b696a185.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/7b656bbb6e6ae4ecc10c98c87ce6b9bd.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/Pumbaa04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/Timon and Pumbaa_73.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/caterpillar003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/caterpillar_PNG19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/hill-576593__480.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/hyena_PNG40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/hyena_PNG52.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/hyena_PNG60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/hyena_PNG8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/images.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/land-vector-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/lion_king_PNG49.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/pumbaa_by_lionkingrulez_d48mmf1-250t.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image/wallpaper-wp3002726.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/music/41461198_326895439.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/music/fonovaya-muzyka-fon-dlya-igr-bystraya-muzyka.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/music/fonovaya-muzyka-veselaya--dlya-igr.mp3" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +215,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\skrip\PhpstormProjects\game\res\image" />
+      <recent name="C:\Users\skrip\PhpstormProjects\game\res\music" />
+      <recent name="C:\Users\skrip\PhpstormProjects\game\res\fonts" />
       <recent name="C:\Users\skrip\PhpstormProjects\game" />
     </key>
   </component>
@@ -75,7 +243,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570704237878</updated>
-      <workItem from="1570704240057" duration="1144000" />
+      <workItem from="1570704240057" duration="1379000" />
     </task>
     <task id="LOCAL-00001" summary="new structure">
       <created>1570704777916</created>
@@ -84,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570704777916</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add fonts">
+      <created>1570705488016</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1570705488016</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +278,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="new structure" />
+    <MESSAGE value="add fonts" />
+    <option name="LAST_COMMIT_MESSAGE" value="add fonts" />
   </component>
 </project>
