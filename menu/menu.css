@@ -1,0 +1,64 @@
+@font-face {
+    font-family: Merriweather;
+    src: url("../res/fonts/Merriweather/__Merriweather-Black.ttf") format('truetype');
+    font-style: normal;
+    font-weight: bold;
+}
+body {
+    background-image: url("../res/backgrounds/background-1.png");
+}
+.conteiner {
+    position: relative;
+    top: 250px;
+    width: 240px;
+    background-color: #f9f9f9;
+    border: 2px solid #10a100;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.conteiner .top{
+    margin: 6px;
+    text-transform: uppercase;
+    font-family: Merriweather, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+.conteiner .body{
+    text-align: center;
+}
+.conteiner .bottom{
+    padding-bottom: 8px;
+    text-align: center;
+}
+input{
+    margin-bottom: 2px;
+    padding: 0 10px;
+    height: 30px;
+    outline: none;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    border: 1px solid gray;
+    color: rgba(66,66,66,.3);
+    font-size: 16px;
+    font-family: MyriadPros,sans-serif;
+    color: #424242;
+}
+button{
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid #10a100;
+    outline: none;
+    letter-spacing: .08em;
+    cursor: pointer;
+    padding: 6px 16px;
+    text-transform: uppercase
+}
+.error {
+    border: 1px solid #ff0000;
+}
+button {
+    color: #10a100;
+    text-decoration: none;
+    font-family: Merriweather, sans-serif;
+}
