@@ -10,7 +10,7 @@ body {
     border: 2px solid #10a100;
     border-radius: 10px;
     width: 40em;
-    height: 25em;
+    height: 22em;
     margin: 1.5em auto;
     overflow: hidden;
     background: white;
@@ -18,7 +18,5 @@ body {
 .slider img {
     float: left;
     max-width: 100%;
-    height: auto;
-    border-radius:1%;
-
+    min-height: 20em;
 }

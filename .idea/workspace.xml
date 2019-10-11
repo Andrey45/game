@@ -6,11 +6,6 @@
       <change beforePath="$PROJECT_DIR$/mult/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mult/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mult/mult.css" beforeDir="false" afterPath="$PROJECT_DIR$/mult/mult.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mult/mult.js" beforeDir="false" afterPath="$PROJECT_DIR$/mult/mult.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/gif/giphy (1).gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/gif/giphy.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/image/Wallpaper_1-fr.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/image/timon-i-pumba-timonoand-pumbaa_153935696_orig_.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/image/timon-pumbaa-wall-9.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570704237878</updated>
-      <workItem from="1570704240057" duration="8344000" />
+      <workItem from="1570704240057" duration="10835000" />
     </task>
     <task id="LOCAL-00001" summary="new structure">
       <created>1570704777916</created>
@@ -110,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570705766176</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="mult update and img rename">
+      <created>1570713479078</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1570713479078</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +133,7 @@
     <MESSAGE value="new structure" />
     <MESSAGE value="add fonts" />
     <MESSAGE value="new res folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="new res folder" />
+    <MESSAGE value="mult update and img rename" />
+    <option name="LAST_COMMIT_MESSAGE" value="mult update and img rename" />
   </component>
 </project>

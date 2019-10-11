@@ -28,14 +28,6 @@ document.addEventListener('DOMContentLoaded', function() {
             }, time);
         }
 
-        function reset() {
-            for(i = 0; i <= allImages.length - 1; i++) {
-                animateRight(i);
-            }
-            // resseting the current image to the first image
-            current = 0;
-        }
-
         function animateLeft(cur) {
             var i = 0,
                 time = 50;
@@ -55,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 current++;
 
             } else {
-                window.location.href = "../game/index.html";
+                //window.location.href = "../game/index.html";
             }
         }, 3000);
     } // end
