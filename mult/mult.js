@@ -47,9 +47,11 @@ document.addEventListener('DOMContentLoaded', function() {
                 current++;
 
             } else {
-                //window.location.href = "../game/index.html";
+                //перехлд на страницу игры
+                window.location.href = "../game/index.html";
             }
         }, 3000);
     } // end
     sslider();
 });
+
