@@ -4,8 +4,6 @@
     <list default="true" id="1e63e0e3-c572-49a6-9675-ec01abd80b61" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mult/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mult/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mult/mult.css" beforeDir="false" afterPath="$PROJECT_DIR$/mult/mult.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mult/mult.js" beforeDir="false" afterPath="$PROJECT_DIR$/mult/mult.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570704237878</updated>
-      <workItem from="1570704240057" duration="10835000" />
+      <workItem from="1570704240057" duration="11293000" />
     </task>
     <task id="LOCAL-00001" summary="new structure">
       <created>1570704777916</created>
@@ -117,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570713479078</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="mult updated and new img">
+      <created>1570787601300</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1570787601300</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +144,7 @@
     <MESSAGE value="add fonts" />
     <MESSAGE value="new res folder" />
     <MESSAGE value="mult update and img rename" />
-    <option name="LAST_COMMIT_MESSAGE" value="mult update and img rename" />
+    <MESSAGE value="mult updated and new img" />
+    <option name="LAST_COMMIT_MESSAGE" value="mult updated and new img" />
   </component>
 </project>
