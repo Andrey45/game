@@ -5,11 +5,11 @@
 
 body {
     overflow: hidden;
-  background-image: url("../res/backgrounds/c_bg_0002.png");
 }
 
 canvas {
   display:block;
+    background-image: url("../res/backgrounds/c_bg_0002.png");
 }
 
 p, a {
