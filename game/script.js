@@ -18,7 +18,7 @@ var background = new Image();
 
 var map = {
 
-    tile_size: 16,
+    tile_size: 30,
 
     /*
 
@@ -38,9 +38,9 @@ var map = {
 
     keys: [
         {id: 0, colour: '#333', solid: 0},
-        {id: 1, colour: '#888', solid: 0},
+        {id: 1, colour: 'rgba(1,1,1,0)', solid: 0},
         {id: 2,colour: '#555',solid: 1,bounce: 0.35},
-        {id: 3,colour: 'rgba(121, 220, 242, 0.4)',friction: {x: 0.9,y: 0.9},gravity: {x: 0,y: 0.1},jump: 1,fore: 1},
+        {id: 3,colour: 'rgba(121, 220, 242, 0.8)',friction: {x: 0.9,y: 0.9},gravity: {x: 0,y: 0.1},jump: 1,fore: 1},
         {id: 4,colour: '#777',jump: 1},
         {id: 5,colour: '#E373FA',solid: 1,bounce: 1.1},
         {id: 6,colour: '#666',solid: 1,bounce: 0},
@@ -73,6 +73,7 @@ var map = {
         [2, 1, 12, 12, 12, 12, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2],
         [2, 1, 1, 1, 1, 1, 1, 1, 12, 12, 12, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2],
         [2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2],
+        [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
         [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
     ],
 
@@ -101,8 +102,8 @@ var map = {
     /* The coordinates at which the player spawns and the colour of the player */
 
     player: {
-        x: 2,
-        y: 2,
+        x: 1,
+        y: 10,
         colour: '#FF9900'
     },
 
@@ -246,7 +247,7 @@ Clarity.prototype.load_map = function (map) {
 
                 _this.current_map.width = Math.max(_this.current_map.width, x);
 
-                if (tile == key.id)
+                if (tile === key.id)
                     _this.current_map.data[y][x] = key;
             });
         });
@@ -257,7 +258,7 @@ Clarity.prototype.load_map = function (map) {
 
     this.player.loc.x = map.player.x * this.tile_size || 0;
     this.player.loc.y = map.player.y * this.tile_size || 0;
-    this.player.colour = map.player.colour || '#000';
+    this.player.colour = map.player.colour || 'rgba(1,1,1,0)';
 
     this.key.left  = false;
     this.key.up    = false;
@@ -326,6 +327,8 @@ Clarity.prototype.draw_map = function (context, fore) {
 };
 
 Clarity.prototype.move_player = function () {
+
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
 
     var tX = this.player.loc.x + this.player.vel.x;
     var tY = this.player.loc.y + this.player.vel.y;
@@ -457,7 +460,7 @@ Clarity.prototype.move_player = function () {
 
         var mag = Math.round(Math.max(1, x_dif * 0.1));
 
-        if(c_x != this.camera.x) {
+        if(c_x !== this.camera.x) {
 
             this.camera.x += c_x > this.camera.x ? mag : -mag;
 
@@ -482,7 +485,7 @@ Clarity.prototype.move_player = function () {
 
         var mag = Math.round(Math.max(1, y_dif * 0.1));
 
-        if(c_y != this.camera.y) {
+        if(c_y !== this.camera.y) {
 
             this.camera.y += c_y > this.camera.y ? mag : -mag;
 
@@ -503,7 +506,7 @@ Clarity.prototype.move_player = function () {
         }
     }
 
-    if(this.last_tile != tile.id && tile.script) {
+    if(this.last_tile !== tile.id && tile.script) {
 
         eval(this.current_map.scripts[tile.script]);
     }
@@ -580,8 +583,8 @@ window.requestAnimFrame =
 var canvas = document.getElementById('canvas'),
     ctx = canvas.getContext('2d');
 
-canvas.width = 640;
-canvas.height = 352;
+canvas.width = 1366;
+canvas.height = 758;
 
 var game = new Clarity();
     game.set_viewport(canvas.width, canvas.height);
@@ -592,7 +595,7 @@ var game = new Clarity();
 
 var Loop = function() {
 
-  ctx.fillStyle = '#333';
+  ctx.fillStyle = 'rgba(1,1,1,0)';
   ctx.fillRect(0, 0, canvas.width, canvas.height);
 
   game.update();
