@@ -2,9 +2,8 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Title</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="menu.js"></script>
+        <title>Title</title>
         <link rel="stylesheet" href="menu.css" type="text/css">
     </head>
     <body>
@@ -12,21 +11,39 @@
             <div class="top">
                 Timon&Pumba
             </div>
-            <hr>
             <div class="body">
-                <div>
-                    Timon
-                    PUMBA
+                <div class="instrukt">
+                    <div class="animation_text">
+                        Движение в лево клавиша ←<br>
+                        Движение в право клавиша →
+                    </div>
                 </div>
-                <hr>
-                <div>
+                <div class="body_input">
                     <input id="name" class="" type="text" placeholder="Введите имя игрока:">
                 </div>
+                <div class="body_card">
+                    <h3>Персонаж</h3>
+                    <div id="invalid_person"></div>
+                    <div id="timon_card" class="card">
+                        <img src="../res/image/timon.png" width="100" height="100">
+                        <hr>
+                        <div>
+                            Тимон
+                        </div>
+                    </div>
+                    <div id="pumba_card" class="card">
+                        <img src="../res/image/pumbaa_by_lionkingrulez_d48mmf1-250t.png" width="100" height="100">
+                        <hr>
+                        <div>
+                            Пумба
+                        </div>
+                    </div>
+                </div>
             </div>
-            <hr>
             <div class="bottom">
                 <button id="but">ИГРАТЬ</button>
             </div>
         </div>
+        <script src="menu.js"></script>
     </body>
 </html>
