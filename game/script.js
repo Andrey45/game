@@ -1,19 +1,22 @@
-
+import { result as server_result} from '../store.js'
 var timon = new Image();
 var pumba = new Image();
-var elevation = new Image();
-var hyen1 = new Image();
-var hyen2 = new Image();
-var caterpillar = new Image();
-var land = new Image();
-var background = new Image();
+// var elevation = new Image();
+// var hyen1 = new Image();
+// var hyen2 = new Image();
+// var caterpillar = new Image();
+// var land = new Image();
+// var background = new Image();
 
+let time = 2000;
+let  user_result =  25;
 
-
-
-
-
-
+function endGame() {
+    let result = time*user_result;
+    server_result(result);
+    location.href = '../endgame/index.html'
+}
+endGame();
 /* Customisable map data */
 
 var map = {

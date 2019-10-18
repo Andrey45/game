@@ -1,0 +1,49 @@
+body{
+    background: url("../res/backgrounds/background-1.png");
+}
+.conteiner{
+    position: relative;
+    display: flex;
+    width: max-content;
+    top: 100px;
+    margin: 0 auto;
+}
+/*TABLE*/
+table{
+    width: 100%;
+}
+thead{
+    border-bottom: 1.5px solid #10a100;
+    margin-bottom: 10px;
+}
+tr{
+    width: 100%;
+    margin: 10px;
+}
+.table_lider{
+    padding: 10px;
+    background: #f9f9f9;
+    border: 2px solid #10a100;
+    border-radius: 10px;
+    width: 300px;
+}
+/*USER_RESULT*/
+.user_result{
+    padding: 10px;
+    background: #f9f9f9;
+    border: 2px solid #10a100;
+    border-radius: 10px;
+}
+
+.user_result .top{
+    font-size: 23px;
+    text-align: center;
+}
+
+.data{
+    color: #10a100;
+}
+
+.user_data{
+    font-size: 22px;
+}
