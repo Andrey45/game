@@ -1,4 +1,3 @@
-let user_store = '';
 let person_store = '';
 //localStorage.removeItem('server')
 let store_server = [];
