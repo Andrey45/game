@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Тимон и Пумба</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <link href="res/fonts/PressStart2P-Regular.ttf" rel="stylesheet">
+        <link href="res/fonts/Roboto/Roboto-Regular.ttf" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="top animation_text">
+                Тимон и Пумба
+                The Game
+            </div>
+                <div class="body">
+                     <div class="body_input">
+                         <label for="name"></label><input id="name" class="animation_text" type="text" placeholder="Введите имя игрока:">
+                     </div>
+                         <div class="body_card">
+                            <div class="top animation_text">Персонаж</div>
+                            <div id="invalid_person"></div>
+                                <div id="timon_card" class="card">
+                                    <img src="res/image/timon.png" alt="oops">
+                                        <hr>
+                                        <div class="animation_text">Тимон</div>
+                                </div>
+                                <div id="pumba_card" class="card">
+                                    <img src="res/image/pumbaa_by_lionkingrulez_d48mmf1-250t.png" alt="oops">
+                                        <hr>
+                                        <div class="animation_text">Пумба</div>
+                                </div>
+                         </div>
+                </div>
+                <div class="bottom"><button class="animation_text" id="but">ИГРАТЬ</button></div>
+        </div>
+        <div class="introduction">
+            <div class="animation_text">
+            1. Перед вами стартовый экран, введите ваше имя и выберите персонажа.<br>
+            2. После выбора персонажа нажмите на кнопку начать.<br>
+            3. По нажатию на кнопку "Начать" и просмотра ролика вы попадаете на экран игры.<br>
+            4. На игровом экране отображается ваше имя, количество HP, количество съеденных гусениц и время игры.<br>
+            5. Изначально у вас 0 съеденных гусениц, 100 HP и таймер в состоянии 00:00.<br>
+            6. Для управлением вашим персонажем используйте стрелки на клавиатуре.<br>
+            7. Избегайте гиен, уклоняясь от них при помощи кнопок управления управления и поедайте гусениц.<br>
+            8. За каждое соприкосновение с гиеной у вас будет отниматься HP до тех пор, пока вы не умрёте.<br>
+            9. Двигайтесь вправо, чтобы дойти до конца.<br>
+            Задача: Собрать как можно быстрее большее кол-во гусениц и пройти уровень.
+            </div>
+        </div>
+    </body>
+    <script type="module" src="js/menu.js"></script>
+</html>

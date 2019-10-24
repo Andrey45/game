@@ -82,7 +82,7 @@ let count = 0;
 let  currX, currY;
 
 // for platform creation
-let boxes = []
+let boxes = [];
 
 let PATH_CHAR = "images/sprite_sheet2.png";
 
@@ -977,7 +977,7 @@ document.body.addEventListener("keyup", function(e) {
 });
 
 function startGame() {
-    console.log(localStorage.getItem('name'))
+    console.log(localStorage.getItem('name'));
     player.name = localStorage.getItem('name');
     isStarted = true;
     startTime = new Date().getTime();
@@ -985,4 +985,4 @@ function startGame() {
     document.getElementById("canvas").style.display = "block";
 }
 
-startGame()
+startGame();

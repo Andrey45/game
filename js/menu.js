@@ -25,7 +25,7 @@ $(document).ready(function () {
                 server_person(person)
                     // Если выбран то идем дальше
                     .then(() => {
-                        location.href = '../mult/index.html'
+                        location.href = "cut-scene.html"
                     })
                     // Если нет то кидаем ошибку
                     .catch(() => {
